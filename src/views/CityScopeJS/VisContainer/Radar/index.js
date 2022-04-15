@@ -38,14 +38,14 @@ export default function Radar(props) {
                 props.cityioData.indicators.length > 0
             ) {
                 const d = createRadarData(props.cityioData.indicators);
-                if (d.domains.length > 0) {
-                    setRadarData(d);
-                    console.log(radarData);
-                }
-                else {
-                    let sampleData = createRadarData(sampleIndicatorData);
-                    setSampleRadarData(sampleData);
-                }
+                // if (d.domains.length > 0) {
+                //     setRadarData(d);
+                //     console.log(radarData);
+                // }
+                // else {
+                let sampleData = createRadarData(sampleIndicatorData);
+                setSampleRadarData(sampleData);
+                // }
             } else {
                 let sampleData = createRadarData(sampleIndicatorData);
                 setSampleRadarData(sampleData);
