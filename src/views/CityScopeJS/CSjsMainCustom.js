@@ -85,7 +85,7 @@ export default function CSjsMainCustom(props) {
       let option = options.option;
       let mode = options.mode;
       let listOnOptions = JSON.parse(options.list_on_options);
-      console.log(listOnOptions);
+
       if (table == tableName) {
         // if (option) {
         //   let requireModule = togglesMeta[option].requireModule;

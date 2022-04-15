@@ -40,6 +40,7 @@ export default function Radar(props) {
                 const d = createRadarData(props.cityioData.indicators);
                 if (d.domains.length > 0) {
                     setRadarData(d);
+                    console.log(radarData);
                 }
                 else {
                     let sampleData = createRadarData(sampleIndicatorData);
