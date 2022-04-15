@@ -2,8 +2,8 @@
   "docsURL": "https://raw.githubusercontent.com/CityScope/CS_cityscopeJS/master/docs/",
   "SOCKETS": { "URL": "ws://localhost:8080" },
   "cityIO": {
-    "baseURL": "https://csl-hcmc.com/cityio/api/table/",
-    "ListOfTables": "https://csl-hcmc.com/cityio/api/tables/list/",
+    "baseURL": "https://quan4.csl-hcmc.com/cityio/api/table/",
+    "ListOfTables": "https://quan4.csl-hcmc.com/cityio/api/tables/list/",
     "interval": 500,
     "cityIOmodules": [
       { "name": "header", "expectUpdate": false },

@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://csl-hcmc.com/api/set-option",
+					"raw": "https://quan4.csl-hcmc.com/api/set-option",
 					"protocol": "https",
 					"host": [
 						"csl-hcmc",
@@ -49,10 +49,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://csl-hcmc.com/api/choose-scenario",
+					"raw": "https://quan4.csl-hcmc.com/api/choose-scenario",
 					"protocol": "https",
 					"host": [
-						"csl-hcmc",
+						"quan4.csl-hcmc",
 						"com"
 					],
 					"path": [
@@ -78,10 +78,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://csl-hcmc.com/api/display-chart",
+					"raw": "https://quan4.csl-hcmc.com/api/display-chart",
 					"protocol": "https",
 					"host": [
-						"csl-hcmc",
+						"quan4.csl-hcmc",
 						"com"
 					],
 					"path": [
@@ -98,10 +98,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://csl-hcmc.com/api/get-access-properties?scenario=hcm_scenario_3",
+					"raw": "https://quan4.csl-hcmc.com/api/get-access-properties?scenario=hcm_scenario_3",
 					"protocol": "https",
 					"host": [
-						"csl-hcmc",
+						"quan4.csl-hcmc",
 						"com"
 					],
 					"path": [
@@ -124,10 +124,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://csl-hcmc.com/api/get-option",
+					"raw": "https://quan4.csl-hcmc.com/api/get-option",
 					"protocol": "https",
 					"host": [
-						"csl-hcmc",
+						"quan4.csl-hcmc",
 						"com"
 					],
 					"path": [
@@ -144,10 +144,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://csl-hcmc.com/api/get-scenario",
+					"raw": "https://quan4.csl-hcmc.com/api/get-scenario",
 					"protocol": "https",
 					"host": [
-						"csl-hcmc",
+						"quan4.csl-hcmc",
 						"com"
 					],
 					"path": [
@@ -164,10 +164,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://csl-hcmc.com/api/get-chart",
+					"raw": "https://quan4.csl-hcmc.com/api/get-chart",
 					"protocol": "https",
 					"host": [
-						"csl-hcmc",
+						"quan4.csl-hcmc",
 						"com"
 					],
 					"path": [
