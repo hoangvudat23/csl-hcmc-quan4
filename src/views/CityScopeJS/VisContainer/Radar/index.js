@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { CircularGridLines, RadarChart, DiscreteColorLegend } from "react-vis";
+import { CircularGridLines, DiscreteColorLegend } from "react-vis";
+import { RadarChart } from "react-vis";
 import "react-vis/dist/style.css";
 import "./Radar.css";
 import sampleIndicatorData from "../../../../settings/sampleIndicatorData.json";
@@ -40,7 +41,7 @@ export default function Radar(props) {
                 const d = createRadarData(props.cityioData.indicators);
                 if (d.domains.length > 0) {
                     setRadarData(d);
-                    console.log(radarData);
+                    // console.log(radarData);
                 }
                 else {
                     let sampleData = createRadarData(sampleIndicatorData);
@@ -172,13 +173,13 @@ export default function Radar(props) {
                         )}
                     />
                 </RadarChart>
-                <DiscreteColorLegend
+                {/* <DiscreteColorLegend
                     items={["Design", "Reference"]}
                     colors={colorRange}
                     style={{
                         fontFamily: "Roboto Mono",
                     }}
-                />
+                /> */}
             </>)}
         </div>
     );
